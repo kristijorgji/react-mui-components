@@ -1,0 +1,64 @@
+{
+  "name": "react-mui-components",
+  "version": "1.0.0",
+  "description": "React material ui extra components library",
+  "main": "lib/index.js",
+  "module": "lib/index.esm.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "build": "rollup -c --bundleConfigAsCjs",
+    "prepublishOnly": "yarn build"
+  },
+  "np": {
+    "publish": false,
+    "tests": false
+  },
+  "keywords": [
+    "react",
+    "material",
+    "typescript"
+  ],
+  "author": "kristijorgji",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/lab": "^5.0.0-alpha.113",
+    "@mui/material": "^5.11.1",
+    "@rollup/plugin-commonjs": "^24.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@storybook/addon-actions": "^6.5.15",
+    "@storybook/addon-essentials": "^6.5.15",
+    "@storybook/addon-interactions": "^6.5.15",
+    "@storybook/addon-links": "^6.5.15",
+    "@storybook/builder-webpack4": "^6.5.15",
+    "@storybook/manager-webpack4": "^6.5.15",
+    "@storybook/react": "^6.5.15",
+    "@storybook/testing-library": "^0.0.13",
+    "@types/react": "17.0.1",
+    "babel-loader": "^8.3.0",
+    "postcss": "^8.4.20",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "rollup": "^3.9.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "typescript": "^4.9.4"
+  },
+  "peerDependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/lab": "^5.0.0-alpha.113",
+    "@mui/material": "^5.11.1",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
+  },
+  "dependencies": {}
+}
