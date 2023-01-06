@@ -10,7 +10,9 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "build": "rollup -c --bundleConfigAsCjs",
-    "prepublishOnly": "yarn build"
+    "prepublishOnly": "yarn build",
+    "lint": "eslint --ext js,jsx,ts,tsx src",
+    "fix": "eslint --fix --ext js,jsx,ts,tsx src"
   },
   "np": {
     "publish": false,
@@ -27,6 +29,7 @@
     "@babel/core": "^7.20.12",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
+    "@kristijorgji/eslint-config-react-typescript": "^0.0.1",
     "@mui/icons-material": "^5.11.0",
     "@mui/lab": "^5.0.0-alpha.113",
     "@mui/material": "^5.11.1",
