@@ -45,6 +45,7 @@
     "@storybook/testing-library": "^0.0.13",
     "@types/react": "17.0.1",
     "babel-loader": "^8.3.0",
+    "date-fns": "^2.29.3",
     "postcss": "^8.4.20",
     "react": "17.0.1",
     "react-dom": "17.0.1",
@@ -60,6 +61,7 @@
     "@mui/icons-material": "^5.11.0",
     "@mui/lab": "^5.0.0-alpha.113",
     "@mui/material": "^5.11.1",
+    "date-fns": "^2.29.3",
     "react": "17.0.1",
     "react-dom": "17.0.1"
   },
